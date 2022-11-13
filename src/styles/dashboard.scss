@@ -1,0 +1,94 @@
+.workstation {
+    margin: 0 10px;
+
+    .section {
+        width: 100%;
+        margin: 10px 0;
+
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: center;
+        text-align: center;
+
+        .heading {
+            font-size: 26px;
+            font-weight: bolder;
+        }
+
+        .innerSection {
+            flex: 1 1 500px;
+            border: 1px solid black;
+
+            height: inherit;
+            height: 300px;
+            overflow-y: scroll;
+
+            .heading {
+                position: sticky;
+                top: 0;
+                background-color: #eef;
+                padding: 5px 0;
+
+                font-size: 21px;
+                font-weight: bolder;
+            }
+        }
+
+        .innerSection:first-child {
+            flex: 1 1 auto;
+        }
+    }
+
+    .section:first-child {
+        margin-top: 20px;
+        height: unset;
+        min-height: unset;
+    }
+
+}
+
+%dropdownOption {
+    margin: 5px 25%;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 0.2s;
+
+    &::before {
+        float: left;
+        margin-left: 10px;
+        content: "-> ";
+    }
+}
+
+.selectDropdown {
+    @extend %dropdownOption;
+    background-color: white;
+
+    &:hover {
+        background-color: bisque;
+        transition: 0.5s;
+    }
+}
+
+.selectedDropdown {
+    @extend %dropdownOption;
+    background-color: burlywood;
+}
+
+.selectedSection {
+    display: flex;
+    flex-wrap: wrap;
+
+    .selectedSectionInnerSection {
+        justify-content: left;
+        text-align: left;
+
+        overflow-y: scroll;
+
+        height: 300px;
+
+        flex: 1 1 40%;
+        border: 1px solid black;
+    }
+}

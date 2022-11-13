@@ -1,0 +1,53 @@
+@keyframes fadeIn {
+    0% {
+        transform: scale(1.1) translate(0, 10px);
+    }
+
+    100% {
+        transform: scale(1) translate(0, 0);
+    }
+}
+
+.fadeIn {
+    animation: fadeIn 1s;
+    transition: 0.5s;
+    font-size: 25px;
+}
+
+@keyframes fadeIn2 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+.fadeIn2 {
+    animation: fadeIn2 2s;
+    transition: 0.5s;
+
+    padding: 5px 10px;
+    background-color: #222;
+    border-radius: 3px;
+    color: #eee;
+
+    &:hover {
+        transform: scale(1.1);
+        color: #fff;
+        background-color: #223;
+        transition: 0.5s;
+    }
+}
+
+.indexBanner {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+
+    div {
+        display: grid;
+        place-items: center;
+    }
+}

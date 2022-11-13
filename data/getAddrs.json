@@ -1,0 +1,44 @@
+{
+    "gateway": "192.168.29.1",
+    "interfaces": {
+        "lo": {
+            "IPV4": [
+                {
+                    "device": "lo",
+                    "family": 4,
+                    "scope": 254,
+                    "inet": "127.0.0.1",
+                    "local": "127.0.0.1"
+                }
+            ],
+            "IPV6": [
+                {
+                    "device": "lo",
+                    "family": 6,
+                    "scope": 254,
+                    "inet6": "::1"
+                }
+            ]
+        },
+        "eno1": {
+            "IPV4": [
+                {
+                    "device": "eno1",
+                    "family": 4,
+                    "scope": 0,
+                    "inet": "10.42.0.2",
+                    "local": "10.42.0.2",
+                    "broadcast": "10.42.0.255"
+                }
+            ],
+            "IPV6": [
+                {
+                    "device": "eno1",
+                    "family": 6,
+                    "scope": 253,
+                    "inet6": "fe80::f603:43ff:fe5c:1908"
+                }
+            ]
+        }
+    }
+}

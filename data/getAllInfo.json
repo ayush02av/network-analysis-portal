@@ -1,0 +1,365 @@
+{
+    "lo": {
+        "info": {
+            "carrier": {
+                "changes": 0,
+                "downCount": 0,
+                "upCount": 0
+            },
+            "flags": {
+                "broadcast": 0,
+                "lower_up": 1,
+                "multicast": 0,
+                "running": 1,
+                "up": 1
+            },
+            "gso": {
+                "maxSegs": 65535,
+                "maxSize": 65536
+            },
+            "if_type": "Loopback",
+            "if_type_N": 772,
+            "index": 1,
+            "link_mode": "DEFAULT",
+            "mac": {
+                "address": "00:00:00:00:00:00",
+                "broadcast": "00:00:00:00:00:00"
+            },
+            "master": 0,
+            "mtu": {
+                "currentVal": 65536,
+                "max": 0,
+                "min": 0
+            },
+            "operstate": "UNKNOWN",
+            "promisc": 0,
+            "rx_qs": 1,
+            "slave": 0,
+            "tx_qs": 1,
+            "txqlen": 1000
+        },
+        "network": {
+            "IPV4": {
+                "inet": "127.0.0.1",
+                "local": "127.0.0.1",
+                "flags": [
+                    "PERMANENT"
+                ]
+            },
+            "IPV6": [
+                {
+                    "scope": "host",
+                    "inet6": "::1",
+                    "flags": [
+                        "PERMANENT"
+                    ]
+                }
+            ]
+        }
+    },
+    "eno1": {
+        "info": {
+            "carrier": {
+                "changes": 1,
+                "downCount": 0,
+                "upCount": 1
+            },
+            "flags": {
+                "broadcast": 1,
+                "lower_up": 1,
+                "multicast": 1,
+                "running": 1,
+                "up": 1
+            },
+            "gso": {
+                "maxSegs": 65535,
+                "maxSize": 65536
+            },
+            "if_type": "Ethernet",
+            "if_type_N": 1,
+            "index": 2,
+            "link_mode": "DEFAULT",
+            "mac": {
+                "address": "f4:03:43:5c:19:08",
+                "broadcast": "ff:ff:ff:ff:ff:ff"
+            },
+            "master": 0,
+            "mtu": {
+                "currentVal": 1500,
+                "max": 9000,
+                "min": 60
+            },
+            "operstate": "UP",
+            "promisc": 0,
+            "rx_qs": 5,
+            "slave": 0,
+            "tx_qs": 5,
+            "txqlen": 1000
+        },
+        "network": {
+            "IPV4": {
+                "inet": "10.42.0.2",
+                "local": "10.42.0.2",
+                "broadcast": "10.42.0.255",
+                "flags": [
+                    "PERMANENT"
+                ]
+            },
+            "IPV6": [
+                {
+                    "scope": "link",
+                    "inet6": "fe80::f603:43ff:fe5c:1908",
+                    "flags": [
+                        "PERMANENT"
+                    ]
+                }
+            ]
+        }
+    },
+    "eno2": {
+        "info": {
+            "carrier": {
+                "changes": 0,
+                "downCount": 0,
+                "upCount": 0
+            },
+            "flags": {
+                "broadcast": 1,
+                "lower_up": 0,
+                "multicast": 1,
+                "running": 0,
+                "up": 1
+            },
+            "gso": {
+                "maxSegs": 65535,
+                "maxSize": 65536
+            },
+            "if_type": "Ethernet",
+            "if_type_N": 1,
+            "index": 3,
+            "link_mode": "DEFAULT",
+            "mac": {
+                "address": "f4:03:43:5c:19:09",
+                "broadcast": "ff:ff:ff:ff:ff:ff"
+            },
+            "master": 0,
+            "mtu": {
+                "currentVal": 1500,
+                "max": 9000,
+                "min": 60
+            },
+            "operstate": "DOWN",
+            "promisc": 0,
+            "rx_qs": 5,
+            "slave": 0,
+            "tx_qs": 5,
+            "txqlen": 1000
+        },
+        "network": null
+    },
+    "eno3": {
+        "info": {
+            "carrier": {
+                "changes": 0,
+                "downCount": 0,
+                "upCount": 0
+            },
+            "flags": {
+                "broadcast": 1,
+                "lower_up": 0,
+                "multicast": 1,
+                "running": 0,
+                "up": 1
+            },
+            "gso": {
+                "maxSegs": 65535,
+                "maxSize": 65536
+            },
+            "if_type": "Ethernet",
+            "if_type_N": 1,
+            "index": 4,
+            "link_mode": "DEFAULT",
+            "mac": {
+                "address": "f4:03:43:5c:19:0a",
+                "broadcast": "ff:ff:ff:ff:ff:ff"
+            },
+            "master": 0,
+            "mtu": {
+                "currentVal": 1500,
+                "max": 9000,
+                "min": 60
+            },
+            "operstate": "DOWN",
+            "promisc": 0,
+            "rx_qs": 5,
+            "slave": 0,
+            "tx_qs": 5,
+            "txqlen": 1000
+        },
+        "network": null
+    },
+    "eno4": {
+        "info": {
+            "carrier": {
+                "changes": 0,
+                "downCount": 0,
+                "upCount": 0
+            },
+            "flags": {
+                "broadcast": 1,
+                "lower_up": 0,
+                "multicast": 1,
+                "running": 0,
+                "up": 1
+            },
+            "gso": {
+                "maxSegs": 65535,
+                "maxSize": 65536
+            },
+            "if_type": "Ethernet",
+            "if_type_N": 1,
+            "index": 5,
+            "link_mode": "DEFAULT",
+            "mac": {
+                "address": "f4:03:43:5c:19:0b",
+                "broadcast": "ff:ff:ff:ff:ff:ff"
+            },
+            "master": 0,
+            "mtu": {
+                "currentVal": 1500,
+                "max": 9000,
+                "min": 60
+            },
+            "operstate": "DOWN",
+            "promisc": 0,
+            "rx_qs": 5,
+            "slave": 0,
+            "tx_qs": 5,
+            "txqlen": 1000
+        },
+        "network": null
+    },
+    "ens3f0": {
+        "info": {
+            "carrier": {
+                "changes": 1,
+                "downCount": 1,
+                "upCount": 0
+            },
+            "flags": {
+                "broadcast": 1,
+                "lower_up": 0,
+                "multicast": 1,
+                "running": 0,
+                "up": 0
+            },
+            "gso": {
+                "maxSegs": 65535,
+                "maxSize": 65536
+            },
+            "if_type": "Ethernet",
+            "if_type_N": 1,
+            "index": 6,
+            "link_mode": "DEFAULT",
+            "mac": {
+                "address": "b4:96:91:67:7e:e4",
+                "broadcast": "ff:ff:ff:ff:ff:ff"
+            },
+            "master": 0,
+            "mtu": {
+                "currentVal": 1500,
+                "max": 9710,
+                "min": 68
+            },
+            "operstate": "DOWN",
+            "promisc": 0,
+            "rx_qs": 64,
+            "slave": 0,
+            "tx_qs": 64,
+            "txqlen": 1000
+        },
+        "network": null
+    },
+    "ens3f1": {
+        "info": {
+            "carrier": {
+                "changes": 1,
+                "downCount": 1,
+                "upCount": 0
+            },
+            "flags": {
+                "broadcast": 1,
+                "lower_up": 0,
+                "multicast": 1,
+                "running": 0,
+                "up": 0
+            },
+            "gso": {
+                "maxSegs": 65535,
+                "maxSize": 65536
+            },
+            "if_type": "Ethernet",
+            "if_type_N": 1,
+            "index": 7,
+            "link_mode": "DEFAULT",
+            "mac": {
+                "address": "b4:96:91:67:7e:e6",
+                "broadcast": "ff:ff:ff:ff:ff:ff"
+            },
+            "master": 0,
+            "mtu": {
+                "currentVal": 1500,
+                "max": 9710,
+                "min": 68
+            },
+            "operstate": "DOWN",
+            "promisc": 0,
+            "rx_qs": 64,
+            "slave": 0,
+            "tx_qs": 64,
+            "txqlen": 1000
+        },
+        "network": null
+    },
+    "ens2f1": {
+        "info": {
+            "carrier": {
+                "changes": 1,
+                "downCount": 1,
+                "upCount": 0
+            },
+            "flags": {
+                "broadcast": 1,
+                "lower_up": 0,
+                "multicast": 1,
+                "running": 0,
+                "up": 0
+            },
+            "gso": {
+                "maxSegs": 65535,
+                "maxSize": 65536
+            },
+            "if_type": "Ethernet",
+            "if_type_N": 1,
+            "index": 9,
+            "link_mode": "DEFAULT",
+            "mac": {
+                "address": "9c:69:b4:63:16:05",
+                "broadcast": "ff:ff:ff:ff:ff:ff"
+            },
+            "master": 0,
+            "mtu": {
+                "currentVal": 1500,
+                "max": 9710,
+                "min": 68
+            },
+            "operstate": "DOWN",
+            "promisc": 0,
+            "rx_qs": 64,
+            "slave": 0,
+            "tx_qs": 64,
+            "txqlen": 1000
+        },
+        "network": null
+    }
+}
