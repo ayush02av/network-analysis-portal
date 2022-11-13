@@ -5,7 +5,7 @@ import Dropdown from "./workstation/dropdown"
 import Selected from "./workstation/selected"
 
 const Workstation = () => {
-    const [networkInterface, setNetworkInterface] = useState(networkInterfaces[0] ? networkInterfaces[0] : null)
+    const [networkInterface, setNetworkInterface] = useState(null)
 
     return (
         <div className="workstation">
